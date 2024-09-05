@@ -1,0 +1,97 @@
+
+body{
+  font-family: 'DynaPuff', cursive;
+  background-color: black;
+}
+
+h1{
+  font-size: 3rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.container{
+  background-color: white;
+  padding: 1.2rem;
+  width: 90vw;
+  margin: 8rem auto;
+  max-width: 35rem;
+  border-radius: 0.25rem;
+}
+
+.form-control{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.text-input{
+  padding: 0.25rem;
+  font-size: 1.2rem;
+  background-color: azure;
+  flex: 1 0 auto;
+  border-radius: 0.75rem;
+}
+
+.submit-btn{
+  background-color: rgb(35, 189, 117);
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+  width: 20%;
+  height: 10%;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+button:hover{
+  color: black;
+  background-color: rgb(22, 140, 219);
+}
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 0.25rem 1rem;
+  background-color: antiquewhite;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.alert{
+  margin-bottom: 1.5rem;
+  height: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.alert.Error{
+  background-color: rgb(172, 81, 81);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.alert.Sccess{
+  background-color: rgb(52, 194, 128);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.alert.warning{
+  background-color: rgb(228, 209, 45);
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.btn{
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  
+}
